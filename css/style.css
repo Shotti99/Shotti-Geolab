@@ -1,0 +1,221 @@
+/*Navigation*/
+.nav-link{
+	font-size: 20px;
+	font-family: "BPG Glaho WEB Caps", sans-serif;
+	color:#000000!important;
+	transition: all .3s linear;
+}
+.nav-link:hover{
+	color:#B8EDF8!important;
+}
+.header-menu{
+	text-align: center;
+}
+.logo-nav{
+	width: 170px;
+}
+/*Banner*/
+.background{
+	background-image: url("../images/header.png");
+	height: 600px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.text-on-banner{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.veb{
+	color:#fff;
+	font-size:40px;
+	font-family: "BPG Glaho WEB Caps", sans-serif;
+	white-space: nowrap;
+}
+.saxeli{
+	color: #fff;
+	font-size: 30px;
+	font-family: "BPG Nino Mkhedruli Book", sans-serif;
+	text-align: center;
+}
+
+/*ras vaketeb*/
+.box-wrapper{
+	border:1px solid grey;
+}
+.section-title{
+	font-size:24px;
+	font-family: "BPG Glaho WEB Caps", sans-serif;
+}
+.section-title::after{
+	content: '';
+	display: block;
+	background: #000000;
+	width: 96px;
+	height: 3px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.img{
+	height: 70px;
+}
+.divider{
+	background: #B8EDF8;
+	width: 26px;
+	height: 3px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.lorem{
+	font-family: "BPG Nino Mkhedruli Book", sans-serif;
+	font-size: 16px;
+	color:#666666;
+	margin-top:10px;
+}
+.idea{
+	font-size:18px;
+	font-family: "BPG Glaho WEB Caps", sans-serif;
+	margin-top:34px;
+}
+
+/*porfolio*/
+.image img{
+	width: 100%;
+}
+.image{
+	border:2px solid #B8EDF8;
+	position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B8EDF8;
+}
+.image:hover .overlay {
+  opacity: 0.9;
+}
+.text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "BPG Glaho WEB Caps", sans-serif;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+/*about us*/
+.about-us{
+	background-color:#F1F1F1;
+}
+.artisti{
+    max-width: 370px;	
+	width:100%;
+	box-shadow: 30px 30px;
+	color:#B8EDF8;
+}
+.artist-text{
+	font-size: 16px;
+	font-family: "BPG Nino Mkhedruli Book", sans-serif;
+	color:#666666;
+}
+.section-title2{
+	font-size:24px;
+	font-family: "BPG Glaho WEB Caps", sans-serif;
+}
+.section-title2::after{
+	content: '';
+	display: block;
+	background: #000000;
+	width: 96px;
+	height: 3px;
+	margin-top:10px;
+}
+
+/*form*/
+.form{
+	background-color: #B8EDF8;
+}
+.contact-box{
+	width: 100%;
+    max-width: 554px;
+    margin: auto;
+}
+.send{
+    background-color:#7EC4CE;
+    border: none;
+    color:#fff;
+    font-size:14px;
+    font-family: "BPG Glaho WEB Caps", sans-serif;
+}
+.form-control{
+	background-color: transparent;
+	border:2px solid #000;
+}
+::placeholder {
+   font-size: 14px;
+   font-family: "BPG Nino Mkhedruli Book", sans-serif;
+}
+
+/*footer*/
+.footer{
+	background-color: #313332;
+}
+.copyright{
+	font-size:14px;
+	font-family: "BPG Nino Mkhedruli Book", sans-serif;
+	color: #fff;
+}
+.logo1{
+	width: 157px;
+}
+/*media*/
+@media (max-width: 991px){
+	.responsive-mt{
+		margin-top:30px;
+	}
+	.section-title2{
+		margin-top:40px;
+	}
+}
+@media (max-width: 767px){
+	.responsive-mt2{
+		margin-top:30px;
+	}
+	.veb{
+	font-size:34px;
+    }
+   .saxeli{
+	font-size: 28px;
+    }
+}
+@media (max-width: 576px){
+	.veb{
+	font-size:24px;
+    }
+   .saxeli{
+	font-size: 20px;
+    }
+}
+@media (max-width: 411px){
+	.veb{
+	font-size:18px;
+    }
+   .saxeli{
+	font-size: 16px;
+    }
+}
